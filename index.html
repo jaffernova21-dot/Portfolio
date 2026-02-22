@@ -1228,49 +1228,43 @@
 
         // Group locations by country
         const locations = [
+    {
+        coords: [32.7266, 74.8570], // Jammu, India
+        country: 'India',
+        companies: [
             {
-                coords: [50.9375, 6.9603],
-                country: 'Germany',
-                companies: [
-                    {
-                        city: 'Cologne',
-                        company: 'Unicepta',
-                        period: '2020 - Present',
-                        role: 'Senior Software Engineer'
-                    }
-                ]
-            },
-            {
-                coords: [41.3275, 19.8187],
-                country: 'Albania',
-                companies: [
-                    {
-                        city: 'Tirana',
-                        company: 'Ritech Solutions',
-                        period: '2018 - 2020',
-                        role: 'Senior Software Engineer'
-                    },
-                    {
-                        city: 'Tirana',
-                        company: 'Group of Companies',
-                        period: '2015 - 2017',
-                        role: 'Software Engineer'
-                    }
-                ]
-            },
-            {
-                coords: [48.8566, 2.3522],
-                country: 'France',
-                companies: [
-                    {
-                        city: 'Paris',
-                        company: 'Gutenberg Technology',
-                        period: '2017 - 2018',
-                        role: 'Software Engineer'
-                    }
-                ]
+                city: 'Jammu',
+                company: 'Affanoi.ai',
+                period: '2024 - Present',
+                role: 'Software Engineer'
             }
-        ];
+        ]
+    },
+    {
+        coords: [25.2048, 55.2708], // Dubai, UAE
+        country: 'UAE',
+        companies: [
+            {
+                city: 'Dubai',
+                company: 'Affanoi.ai',
+                period: '2023 - 2024',
+                role: 'Frontend Developer'
+            }
+        ]
+    },
+    {
+        coords: [36.7783, -119.4179], // California, USA
+        country: 'USA',
+        companies: [
+            {
+                city: 'California',
+                company: 'Affanoi.ai',
+                period: '2022 - 2023',
+                role: 'Software Developer'
+            }
+        ]
+    }
+];
 
         // Store markers by country
         const markers = {};
