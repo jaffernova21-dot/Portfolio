@@ -65,34 +65,38 @@
 
     <!-- Structured Data / JSON-LD -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Marjo Ballabani",
-      "url": "https://marjoballabani.me",
-      "jobTitle": "Senior Software Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Unicepta"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Munich",
-        "addressRegion": "Bavaria",
-        "addressCountry": "Germany"
-      },
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "University of Tirana"
-      },
-      "knowsAbout": ["Software Engineering", "Full-Stack Development", "Cloud Computing", "Distributed Systems", "Microservices", "Node.js", "React", "Python", "Google Cloud", "AWS", "Docker", "Kubernetes"],
-      "sameAs": [
-        "https://github.com/marjoballabani",
-        "https://linkedin.com/in/marjoballabani",
-        "https://stackoverflow.com/users/7563517/marjo-ballabani"
-      ]
-    }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jaffer Nova",
+  "url": "https://yourdomain.com",
+  "jobTitle": "Full-Stack Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Affanoi.ai"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jammu",
+    "addressRegion": "Jammu & Kashmir",
+    "addressCountry": "India"
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "GHSS Thatarka"
+  },
+  "knowsAbout": [
+    "Web Development",
+    "JavaScript",
+    "React",
+    "Node.js"
+  ],
+  "sameAs": [
+    "https://github.com/YOURUSERNAME",
+    "https://linkedin.com/in/YOURUSERNAME"
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Awwwards Ribbon -->
@@ -1271,7 +1275,7 @@
 
         // Add custom neo-brutalist markers
         locations.forEach(location => {
-            const isCurrent = location.country === 'Germany';
+            const isCurrent = location.country === 'India';
             const markerIcon = L.divIcon({
                 className: isCurrent ? 'neo-marker neo-marker-current' : 'neo-marker',
                 html: `
