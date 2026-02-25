@@ -651,7 +651,7 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Senior software engineer with more than 10 years of",
+      "Senior software engineer with more than 1.5+ years of",
       "#ffffff"
     )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
@@ -852,7 +852,7 @@ ${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
 
 <span style="color: #00ffff;">GUTENBERG TECHNOLOGY | Software Engineering</span>
 ${this.wrapWithColor(
-  "Feb 2017 – Aug 2018 | Paris, France | 50-100 employees",
+  "Feb 2017 – Aug 2018 | RAMBAN, JAMMU | 50-100 employees",
   "#ffffff"
 )}
 
@@ -938,15 +938,15 @@ ${this.wrapWithColor(
 )}
 
 ${this.wrapWithColor("🏛️ Institution:", "#ff8c00")} ${this.wrapWithColor(
-      "University of Tirana",
+      "SCHOOL GHHS THATARKA",
       "#ffffff"
     )}
 ${this.wrapWithColor("📅 Duration:", "#ff8c00")}    ${this.wrapWithColor(
-      "2013 - 2016",
+      "2023 - 2026",
       "#ffffff"
     )}
 ${this.wrapWithColor("📍 Location:", "#ff8c00")}    ${this.wrapWithColor(
-      "Tirana, Albania",
+      "RAMBAN, JAMMU",
       "#ffffff"
     )}
 
@@ -1017,7 +1017,7 @@ ${this.wrapWithColor("✉", "#ff8c00")}  ${this.wrapWithColor(
       "Email:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="mailto:marjoballabani@gmail.com" style="color: #ffffff; text-decoration: none;">marjoballabani@gmail.com</a>',
+      '<a href="jafferrthr@gmail.com" style="color: #ffffff; text-decoration: none;">jafferrthr@gmail.com</a>',
       "#ffffff"
     )}
 
@@ -1025,7 +1025,7 @@ ${this.wrapWithColor("🌐", "#ff8c00")}  ${this.wrapWithColor(
       "Website:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://marjoballabani.me" target="_blank" style="color: #ffffff; text-decoration: none;">marjoballabani.me</a>',
+      '<a href="https://jaffer-nova.vercel.app" target="_blank" style="color: #ffffff; text-decoration: none;">jaffer-nova.vercel.app</a>',
       "#ffffff"
     )}
 
@@ -1033,7 +1033,7 @@ ${this.wrapWithColor("⚡", "#ff8c00")}  ${this.wrapWithColor(
       "Github:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://github.com/marjoballabani" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/marjoballabani</a>',
+      '<a href="https://github.com/jaffernova21-dot" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/jaffernova21-dot</a>',
       "#ffffff"
     )}
 
@@ -1041,7 +1041,7 @@ ${this.wrapWithColor("💼", "#ff8c00")}  ${this.wrapWithColor(
       "LinkedIn:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://linkedin.com/in/marjo-ballabani" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com/in/marjo-ballabani</a>',
+      '<a href="https://linkedin.com" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com</a>',
       "#ffffff"
     )}
 
