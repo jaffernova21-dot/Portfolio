@@ -522,14 +522,12 @@ class TerminalResume {
   }
 
   printWelcomeMessage(outputElement = this.output) {
-    const asciiArt = `
-██╗ █████╗ ███████╗███████╗███████╗██████╗ 
-██║██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
-██║███████║█████╗  █████╗  █████╗  ██████╔╝
-██   ██║██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██╔══██╗
-╚█████╔╝██║  ██║██║     ██║     ███████╗██║  ██║
- ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝
-`;
+    const asciiArt = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
+████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
+██╔████╔██║███████║██████╔╝██║██║   ██║
+██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
+██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
 
     const divider = "─────────────────────────────────────────────────";
 
@@ -653,7 +651,7 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Senior software engineer with more than 1.5+ years of",
+      "Senior software engineer with more than 10 years of",
       "#ffffff"
     )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
@@ -784,7 +782,7 @@ ${this.wrapWithColor(
 
 <span style="color: #00ffff;">UNICEPTA | Senior Software Engineer</span>
 ${this.wrapWithColor(
-  "Jul 2023 - Present | Jammu, Ramban | 450+ employees",
+  "Jul 2020 - Present | Cologne, Germany | 450+ employees",
   "#ffffff"
 )}
 ${this.wrapWithColor(
@@ -888,7 +886,7 @@ ${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
 
 <span style="color: #00ffff;">GROUP OF COMPANIES | Software Engineer</span>
 ${this.wrapWithColor(
-  "Mar 2015 – Feb 2017 | Ramban, Jammu | 5-30 employees",
+  "Mar 2015 – Feb 2017 | Tirana, Albania | 5-30 employees",
   "#ffffff"
 )}
 
@@ -908,7 +906,7 @@ ${this.wrapWithColor(
       "#ffffff"
     )}
 • ${this.wrapWithColor("UKD developer", "#ffa07a")} - ${this.wrapWithColor(
-      "Water supply billing process for Jaffer, Government project",
+      "Water supply billing process for Albania, Government project",
       "#ffffff"
     )}
 
@@ -940,15 +938,15 @@ ${this.wrapWithColor(
 )}
 
 ${this.wrapWithColor("🏛️ Institution:", "#ff8c00")} ${this.wrapWithColor(
-      "HSS THATARKA",
+      "University of Tirana",
       "#ffffff"
     )}
 ${this.wrapWithColor("📅 Duration:", "#ff8c00")}    ${this.wrapWithColor(
-      "2023 - 2026",
+      "2013 - 2016",
       "#ffffff"
     )}
 ${this.wrapWithColor("📍 Location:", "#ff8c00")}    ${this.wrapWithColor(
-      "Jammu, Ramban",
+      "Tirana, Albania",
       "#ffffff"
     )}
 
@@ -1019,7 +1017,7 @@ ${this.wrapWithColor("✉", "#ff8c00")}  ${this.wrapWithColor(
       "Email:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="mailto:jafferrthr@gmail.com" style="color: #ffffff; text-decoration: none;">jafferrthr@gmail.com</a>',
+      '<a href="mailto:marjoballabani@gmail.com" style="color: #ffffff; text-decoration: none;">marjoballabani@gmail.com</a>',
       "#ffffff"
     )}
 
@@ -1027,7 +1025,7 @@ ${this.wrapWithColor("🌐", "#ff8c00")}  ${this.wrapWithColor(
       "Website:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://jaffer-nova-vercel.app" target="_blank" style="color: #ffffff; text-decoration: none;">jaffer-nova.vercel.app</a>',
+      '<a href="https://marjoballabani.me" target="_blank" style="color: #ffffff; text-decoration: none;">marjoballabani.me</a>',
       "#ffffff"
     )}
 
@@ -1035,7 +1033,7 @@ ${this.wrapWithColor("⚡", "#ff8c00")}  ${this.wrapWithColor(
       "Github:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://github.com/jaffernova21-dot" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/jaffernova21-dot</a>',
+      '<a href="https://github.com/marjoballabani" target="_blank" style="color: #ffffff; text-decoration: none;">github.com/marjoballabani</a>',
       "#ffffff"
     )}
 
@@ -1043,7 +1041,7 @@ ${this.wrapWithColor("💼", "#ff8c00")}  ${this.wrapWithColor(
       "LinkedIn:",
       "#ff8c00"
     )} ${this.wrapWithColor(
-      '<a href="https://linkedin.com" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com</a>',
+      '<a href="https://linkedin.com/in/marjo-ballabani" target="_blank" style="color: #ffffff; text-decoration: none;">linkedin.com/in/marjo-ballabani</a>',
       "#ffffff"
     )}
 
@@ -1840,7 +1838,7 @@ ${this.wrapWithColor("╰──────────────────�
 
     // Add terminal title
     const terminalTitle = document.createElement("div");
-    terminalTitle.textContent = "jaffer@nova: ~/interactive-resume";
+    terminalTitle.textContent = "marjo@ballabani: ~/interactive-resume";
     terminalTitle.style.color = "#f8f8f2";
     terminalTitle.style.fontSize = "12px";
     terminalTitle.style.fontFamily = "'Fira Code', monospace";
@@ -1869,14 +1867,12 @@ ${this.wrapWithColor("╰──────────────────�
     asciiArt.style.fontSize = "10px";
     asciiArt.style.fontFamily = "'Fira Code', monospace";
     asciiArt.style.lineHeight = "1";
-    const asciiArt = `
-██╗ █████╗ ███████╗███████╗███████╗██████╗ 
-██║██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
-██║███████║█████╗  █████╗  █████╗  ██████╔╝
-██   ██║██╔══██║██╔══╝  ██╔══╝  ██╔══╝  ██╔══██╗
-╚█████╔╝██║  ██║██║     ██║     ███████╗██║  ██║
- ╚════╝ ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝
-`;
+    asciiArt.innerHTML = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
+████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
+██╔████╔██║███████║██████╔╝██║██║   ██║
+██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
+██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
     terminalContent.appendChild(asciiArt);
 
     // Add divider
